@@ -1,4 +1,4 @@
-# electron-quick-start
+# Kuru Anime Desktop Application
 
 **Clone and run for a quick way to see Electron in action.**
 
