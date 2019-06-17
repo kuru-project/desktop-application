@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "kuru-anime-desktop",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A desktop application for Kuru Anime",
   "main": "main.js",
   "productName": "Kuru Anime",
   "scripts": {
@@ -11,13 +11,9 @@
     "pack:win64": "rm -rf dist/ || electron-packager . 'Kuru Anime' --out=dist/win --platform=win32 --arch=x64 --version=0.36.2 app-version=1.0 --icon=icons/icon.ico",
     "build": "npm run pack:osx && npm run pack:win32 && npm run pack:win64"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/kuru-project/desktop-application",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Kuru Anime"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
