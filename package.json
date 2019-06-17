@@ -6,9 +6,9 @@
   "productName": "Kuru Anime",
   "scripts": {
     "start": "electron .",
-    "pack:osx": "electron-packager . $npm_package_productName --out=dist/osx --platform=darwin --arch=x64 --icon=icon.icns",
+    "pack:osx": "electron-packager . $npm_package_productName --out=dist/osx --platform=darwin --arch=x64 --icon=icons/icon.icns",
     "pack:win32": "electron-packager . $npm_package_productName --out=dist/win --platform=win32 --arch=ia32",
-    "pack:win64": "electron-packager . $npm_package_productName --out=dist/win --platform=win32 --arch=x64 --version=0.36.2 app-version=1.0 --icon=icon.ico",
+    "pack:win64": "electron-packager . $npm_package_productName --out=dist/win --platform=win32 --arch=x64 --version=0.36.2 app-version=1.0 --icon=icons/icon.ico",
     "build": "npm run pack:osx && npm run pack:win32 && npm run pack:win64"
   },
   "repository": "https://github.com/electron/electron-quick-start",
