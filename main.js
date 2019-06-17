@@ -17,7 +17,10 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  // mainWindow.loadFile('index.html')
+
+  // Load the Page itself
+  mainWindow.loadURL('https://web.kuru-anime.com/')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
